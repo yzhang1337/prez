@@ -35,3 +35,8 @@ Mkdocs
 - TODO boxes
 - Dashboard page with last edited
 - Countdown Icon
+
+---
+## Test of Image
+
+![fia](/attachments/fia.jpg)
