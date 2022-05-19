@@ -34,12 +34,15 @@ which is specified as either sleep bruxism or awake bruxism..."
 ----
 ## What it "looks like"
 new image
+hi
 
-![EMG](./attachments/brux-musc.png)
+**typically 1 Hz in frequency**
+
+![EMG](attachments/brux-musc.png)
+----
 ![EMG](attachments/brux-musc.png)
 
 
-**typically 1 Hz in frequency**
 ----
 ## How often does it happen?
 
