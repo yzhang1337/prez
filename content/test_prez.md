@@ -33,6 +33,11 @@ Pietkiewicz in 1907*
 by clenching or grinding of the teeth and/or by bracing or thrusting of the mandible,
 which is specified as either sleep bruxism or awake bruxism..."
 
+----
+## What it "looks like"
+
+![EMG](/attachments/epp.png)
+
 **typically 1 Hz in frequency**
 ----
 ## How often does it happen?
@@ -121,7 +126,8 @@ some other *face stuff...*
 - Historically has been ambigious as to whether these are functional and/or organic disorders, leading to unequivocal findings
 - Share the root cause of a disruption in the excitatory and inhibitory pathways of the trigeminal system
 - Clinically, sort of; electrophysiologically, no
-![EMG](/attachments/epp.png)
+
+
 
 ---
 # Takeaways
