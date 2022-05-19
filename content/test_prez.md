@@ -35,8 +35,7 @@ which is specified as either sleep bruxism or awake bruxism..."
 
 ----
 ## What it "looks like"
-
-![EMG](docs/attachments/brux-musc.png)
+new image
 
 ![EMG](https://github.com/yzhang1337/prez/blob/daff19d15036a19c593efc133ef2ccd924316aba/docs/attachments/brux-musc.png)
 
@@ -57,7 +56,8 @@ which is specified as either sleep bruxism or awake bruxism..."
 - depression
 - generalized anxiety
 - high stress
-- drug-induced
+- mostly children and young adults
+- **drug-induced**
 
 ---
 # Drug-Induced Bruxism
@@ -134,9 +134,9 @@ some other *face stuff...*
 
 ---
 # Takeaways
-- Duration of bruxism (not frequency) contributes to poorer quality of sleep
+- Bruxism is primarily driven by an Increased 5-HT activity + Inhibitory DA activity surrounding the Trigeminal system and the Mescortical Tract
 - May mimic tardive dystonia due to similar underlying pathways
-- 
+- Duration of bruxism (not frequency) contributes to poorer quality of sleep
 
 
 ----
