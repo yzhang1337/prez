@@ -20,7 +20,7 @@ Yilun Zhang
 ---
 ## The Basics
 
-![muscle](/attachments/brux-musc.png)
+![muscle](../attachments/brux-musc.png)
 
 ----
 
