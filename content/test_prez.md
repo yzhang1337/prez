@@ -36,7 +36,10 @@ which is specified as either sleep bruxism or awake bruxism..."
 ----
 ## What it "looks like"
 
-![EMG](/attachments/epp.png)
+![EMG](docs/attachments/brux-musc.png)
+
+![EMG](https://github.com/yzhang1337/prez/blob/daff19d15036a19c593efc133ef2ccd924316aba/docs/attachments/brux-musc.png)
+
 
 **typically 1 Hz in frequency**
 ----
@@ -138,7 +141,7 @@ some other *face stuff...*
 
 ----
 ## More Practical Takeaways
-- Association with Temporomandibular disorders
+- Association with Temporomandibular disorders and orofacial pain
     + may explain morning, temporal headaches
 - Probably refer to dental for splint or other work
 - Referal to Sleep Medicine *may* be helpful, but this is a clinical diagnosis (PSG not necesarry!)
