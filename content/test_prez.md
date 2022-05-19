@@ -20,8 +20,6 @@ Yilun Zhang
 ---
 ## The Basics
 
-![muscle](../attachments/brux-musc.png)
-
 ----
 
 ## Definition
