@@ -2,8 +2,10 @@
 title: Bruxism
 ---
 
-# So What's the deal with Bruxism?
+## So What's the deal with Bruxism?
 *A Look at the Mechanism behind Drug-Induced Bruxism*
+
+![seinfeld](attachments/seinfeld.png) <!-- .element height="40%" width="40%" -->
 
 Yilun Zhang
 
@@ -19,7 +21,7 @@ Yilun Zhang
 
 ---
 ## The Basics
-
+![anatomy](attachments/brux-musc.png)
 ----
 
 ## Definition
@@ -32,12 +34,12 @@ by clenching or grinding of the teeth and/or by bracing or thrusting of the mand
 which is specified as either sleep bruxism or awake bruxism..."
 
 ----
-## What it "looks like"
+### What it "looks like"
 
+![EMG](attachments/epp.png)  <!-- .element height="40%" width="40%" -->
 
-**typically 1 Hz in frequency**
+typically 1 Hz in frequency
 
-![EMG](attachments/epp.png)
 
 ----
 ## How often does it happen?
@@ -61,7 +63,7 @@ which is specified as either sleep bruxism or awake bruxism..."
 # Drug-Induced Bruxism
 
 ----
-# Which Drugs?
+## Which Drugs?
 
 -  **3,4-methylenedioxymethamphetamine (ecstasy, MDMA)**
 - Cocaine
@@ -72,7 +74,7 @@ which is specified as either sleep bruxism or awake bruxism..."
 - L-DOPA
 
 ----
-# Out in the world...
+## Out in the world...
 
 - "meth mouth"
 - Sex, drugs & rock 'n' roll
@@ -80,22 +82,22 @@ which is specified as either sleep bruxism or awake bruxism..."
 - tooth decay
 
 ----
-# Working hypothesis
+## Working hypothesis
 
 Serotonin x Dopamine
 
 ----
-# Dopamine
+## Dopamine
 - balance of motor output in PFC by maintaning inhibitory tone
 - DA activity in the PFC is modulated by inhibitory 5-HT neurons (mesocortical tract and ventral tegmental area)
 
 ----
-# 5-HT
+## 5-HT
 - decreases DA activity at PFC
 - trigeminal motor neurons are activated by 5-HT (and NE)
 
 ----
-# All together now...
+## All together now...
 
 - Raphe Nucleus (5-HT neurons)
 - VTA
@@ -127,8 +129,6 @@ some other *face stuff...*
 - Historically has been ambigious as to whether these are functional and/or organic disorders, leading to unequivocal findings
 - Share the root cause of a disruption in the excitatory and inhibitory pathways of the trigeminal system
 - Clinically, sort of; electrophysiologically, no
-
-
 
 ---
 # Takeaways
