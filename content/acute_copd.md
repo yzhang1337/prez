@@ -1,9 +1,8 @@
 ---
-title: Bruxism
+title: AECOPD
 ---
 
-# So What's the deal with Acute COPD Exacerbation?
-*hello world*
+# Acute Exacerbation of COPD
 
 Yilun Zhang
 ---
@@ -12,12 +11,51 @@ Yilun Zhang
 1. Background
 2. Workup
 3. Management
-4. New Evidence
+4. Clinical Decision Making
 5. Pearls
 6. Takeaways
 ---
-# Another test slide
+## Background
+----
+" is defined as a disease state characterized by persistent respiratory symptoms and airflow obstruction" which includes
+- emphysema
+- chronic bronchitis
+- small airway disease
 
-test test
+caused by both environmental and genetic factors
+----
+### Etiology
+- Most cases are caused by respiratory **viral** infections (rhinovirus being most common)
+- *bacterial* infections include  Haemophilus influenzae, Moraxella catarrhalis, Streptococcus pneumoniae
+- Other triggers include:
+     - drugs (beta-blockers)
+     - environmental exposures (allergens, air pollution)
+     - stress
+
+
+
+---
+## Clinical Decision Making
+----
+### Ottawa COPD Risk Scale (OCRS)
+
+
+
+
+
+####
+---
+## Background
 ---
 
+---
+## Background
+---
+
+---
+## Background
+---
+
+---
+## Background
+---
