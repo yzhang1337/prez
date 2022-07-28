@@ -60,7 +60,11 @@ Yilun Zhang
 ### Presentation
 - **Epigastric or LUQ pain (90%)**
   - only HALF have radiating to the back
-- **N/V**
+- **N/V (90%)**
+- Dyspnea (severe patients, due to diaphragmatic inflammation)
+
+*10% have atypical presentation WITHOUT pain and unexplained hypotension*
+
 
 ###### Time course
 - Early phase (<1 wk)
