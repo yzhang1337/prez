@@ -5,7 +5,7 @@ title: Bruxism
 ## So What's the deal with Bruxism?
 *A Look at the Mechanism behind Drug-Induced Bruxism*
 
-![seinfeld](attachments/seinfeld.png) <!-- .element height="40%" width="40%" -->
+![seinfeld](attachments/seinfeld.png)<!-- .element height="10%" width="40%" -->
 
 Yilun Zhang
 
@@ -27,7 +27,7 @@ Yilun Zhang
 ## Definition
 
 *‘la bruxomanie’ was first introduced by Marie
-Pietkiewicz in 1907* 
+Pietkiewicz in 1907*
 
 "repetitive masticatory muscle activity that is characterized
 by clenching or grinding of the teeth and/or by bracing or thrusting of the mandible,
@@ -46,7 +46,7 @@ typically 1 Hz in frequency
 
 - in adult populations, frequency is between 5.9 - 49.0%
     - *from 1966 to 2002 there was an increase from 5 to 22% in university aged adults*
-- Awake Bruxism, Female > male tendency 
+- Awake Bruxism, Female > male tendency
 - elderly population is relatively free of bruxism
 
 
@@ -109,7 +109,7 @@ Serotonin x Dopamine
 ----
 ## Occam's Razor
 
-Theoretically, a laundry list of other NT's are involved from CCK to Angiotensin to Substance P... 
+Theoretically, a laundry list of other NT's are involved from CCK to Angiotensin to Substance P...
 
 ---
 # Tardive Dystonia

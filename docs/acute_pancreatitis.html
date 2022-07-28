@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Acute Pancreatitis</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/moon.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Acute Pancreatitis
+Yilun Zhang
+
+#![img](attachments/pancreatitis.png)
+
+</script></section><section  data-markdown><script type="text/template">
+# Table of Contents
+
+1. Etiology
+2. Clinical Features + Diagnosis
+3. Differential
+4. Management
+5. Takeaways
+</script></section><section ><section data-markdown><script type="text/template">
+## Pathphysiology + Etiology
+</script></section><section data-markdown><script type="text/template">
+### Pathophysiology
+- Duct and acinar indirect/direct injury
+  - impaired secretion
+    - premature activation of digestive enzymes (proteases)
+      - autodigestion and acute inflammation
+</script></section><section data-markdown><script type="text/template">
+### Most Common
+- Biliary Disease
+  - **stones (40%)**
+  - sludge
+- **Alcohol (30%)**
+- ERCP (5%)
+</script></section><section data-markdown><script type="text/template">
+### Less Common
+- *Medications (5%)*
+  - Furosemide
+  - Didanosine
+  - Asparaginase
+  - Mesalamine
+  - Thiazides
+  - 6-Mercaptopurine/azathioprine
+  - Sulfasalazine
+  - Estrogen
+- *Hypertriglyceridemia (2-5%)*
+- Hypercalcemia
+</script></section><section data-markdown><script type="text/template">
+### Rare
+- infectious
+- ischemia
+- traumatic
+- neoplasia
+- Celiac diseases
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Clinical Features + Diagnosis
+</script></section><section data-markdown><script type="text/template">
+### Presentation
+- **Epigastric or LUQ pain (90%)**
+  - only HALF have radiating to the back
+- **N/V**
+
+###### Time course
+- Early phase (<1 wk)
+  - possible SIRS + organ failure
+- Late phase
+  - local complications
+</script></section><section data-markdown><script type="text/template">
+### Diagnosis
+- 2 of 3 criteria:
+    1. classic abdominal pain
+    2. lipase/amylase >3x upper normal limit
+        - rises faster than amylase
+    3. findings on imaging
+        - U/S should be used to r/o biliary etiologies
+        - CT only to investigate complications
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Differential
+</script></section><section data-markdown><script type="text/template">
+### Differential
+Generally, other sources of epigastric pain, can be distinguished with **contrast enhanced** CT
+- Acute cholecystitis
+- Perforated viscus
+- SBO
+- mesenteric ischemia
+- Ruptured ectopic pregnancy
+- AAA
+</script></section></section><section  data-markdown><script type="text/template">
+## Management
+</script></section><section ><section data-markdown><script type="text/template">
+## Initial
+- Fluids
+  - aggresive in first 24h
+  - 20 ml/kg IV Bolus --> 3 ml/kg/hr
+  - LR > NS
+  - Goal: Decrease BUN and HCt
+- Pain Mgmt (usually IV opiods)
+- Anti-emetics
+
+**antibiotics are not warranted in acute pancreatitis unless there is evidence of extrapancreatic infection, such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia. Use of prophylactic antibiotics in patients with sterile pancreatic necrosis to prevent infected necrosis is not recommended.**
+</script></section><section data-markdown><script type="text/template">
+## Nutrition + Insulin
+- Early enteral feeding is encouraged --> transition to PO as tolerated
+- Enteral > TPN to decrease risk of infectious complications
+
+In the case of hypertriglyceridemia --> insulin gtt (activates lipases) + fibrates
+</script></section></section><section  data-markdown><script type="text/template">
+## Takeaways (taken from MKSAP19)
+- Biliary disease (gallstones, biliary sludge, or microlithiasis) is the most common cause of acute pancreatitis.
+- Diagnosis of acute pancreatitis requires two of three criteria:
+  - (1) acute-onset upper abdominal pain
+  - (2) serum lipase or amylase levels elevated at least three times the upper limit of normal
+  - (3) characteristic findings on imaging
+- Patients with acute pancreatitis should undergo transabdominal ultrasonography rather than CT for evaluation of biliary disease.
+- Early and aggressive fluid resuscitation should be initiated in patients with acute pancreatitis.
+- In mild acute pancreatitis, oral feedings can be started as soon as nausea and vomiting are controlled and clinical symptoms are alleviated; enteral feeding should begin within 72 hours if oral feeding is not tolerated.
+- Pancreatic pseudocysts do not require drainage unless they cause significant symptoms or are infected, regardless of size.
+</script></section><section  data-markdown><script type="text/template">
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"keyboard":true}, queryOptions);
+    </script>
+
+    <script src="./_assets/content/docs/plugin/toc-progress/toc-progress.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

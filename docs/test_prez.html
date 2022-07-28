@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
 
 
   </head>
@@ -20,7 +20,7 @@
 ## So What's the deal with Bruxism?
 *A Look at the Mechanism behind Drug-Induced Bruxism*
 
-![seinfeld](attachments/seinfeld.png) <!-- .element height="40%" width="40%" -->
+![seinfeld](attachments/seinfeld.png)<!-- .element height="10%" width="40%" -->
 
 Yilun Zhang
 
@@ -36,7 +36,7 @@ Yilun Zhang
 ## Definition
 
 *‘la bruxomanie’ was first introduced by Marie
-Pietkiewicz in 1907* 
+Pietkiewicz in 1907*
 
 "repetitive masticatory muscle activity that is characterized
 by clenching or grinding of the teeth and/or by bracing or thrusting of the mandible,
@@ -51,7 +51,7 @@ typically 1 Hz in frequency
 
 - in adult populations, frequency is between 5.9 - 49.0%
     - *from 1966 to 2002 there was an increase from 5 to 22% in university aged adults*
-- Awake Bruxism, Female > male tendency 
+- Awake Bruxism, Female > male tendency
 - elderly population is relatively free of bruxism
 
 </script></section><section data-markdown><script type="text/template">## Who are the grinders?
@@ -96,7 +96,7 @@ Serotonin x Dopamine
 - Masticatory Muscles
 </script></section><section data-markdown><script type="text/template">## Occam's Razor
 
-Theoretically, a laundry list of other NT's are involved from CCK to Angiotensin to Substance P... 
+Theoretically, a laundry list of other NT's are involved from CCK to Angiotensin to Substance P...
 </script></section></section><section ><section data-markdown><script type="text/template"># Tardive Dystonia
 some other *face stuff...*
 </script></section><section data-markdown><script type="text/template">## Oral Maxilliofacial Nightmare
@@ -169,9 +169,10 @@ A Chinese proverb has linked Bruxism with psychosocial factors. "If a boy clench
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"keyboard":true}, queryOptions);
     </script>
 
+    <script src="./_assets/content/docs/plugin/toc-progress/toc-progress.js"></script>
 
     <script>
       Reveal.initialize(options);

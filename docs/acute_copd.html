@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
 
 
   </head>
@@ -157,9 +157,10 @@ Mean cost per patient 6760$(USD)
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"keyboard":true}, queryOptions);
     </script>
 
+    <script src="./_assets/content/docs/plugin/toc-progress/toc-progress.js"></script>
 
     <script>
       Reveal.initialize(options);

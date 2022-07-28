@@ -1,0 +1,5 @@
+{
+	"scripts": [
+		"content/docs/plugin/toc-progress/toc-progress.js"
+	]
+}
