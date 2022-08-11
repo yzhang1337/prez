@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>AKI</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# TITLE
+Yilun Zhang
+
+![]()
+</script></section><section  data-markdown><script type="text/template"># Table of Contents
+
+1. Background
+2. Clinical Features
+3. Diagnosis
+4. Differential
+5. Takeaways
+6. Pearls</script></section><section  data-markdown><script type="text/template">## Background</script></section><section  data-markdown><script type="text/template">
+Definition of AKI
+- increase in Creatinine >0.3mg or 1.5x baseline
+- <0.5 ml/kg/hr for 6 hours
+
+## Labs
+
+
+## PreRenal
+FENa <1%
+FEUREA <35
+BUN:Cr >20:1
+
+## intrinsic
+FENa <35%
+FEUREA >50%
+BUN:Cr <15:1
+
+# Intrinsic etiologies
+- glomerulonephritis
+- Vasculitis
+- vascular disease
+  - thrombic microangiopathy
+  - HUS
+  - scleroderma crisis
+  - DIC
+
+## Types of Intrinsic
+### ATN **80%**
+- ischemia
+### AIN (interstitial nephritis)
+- *Medications* (antibiotics)
+- Infection
+- Infiltrative diseases (sarcoidosis, Sjogren, amyloid)
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"controlsTutorial":true,"keyboard":true,"slideNumber":true,"center":true,"help":true,"showNotes":true,"margin":0.3}, queryOptions);
+    </script>
+
+    <script src="./_assets/content/docs/plugin/toc-progress/toc-progress.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

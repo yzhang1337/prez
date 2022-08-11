@@ -2,5 +2,10 @@
   "controls": true,
   "progress": true,
   "controlsTutorial": true,
-  "keyboard": true
+  "keyboard": true,
+  "slideNumber": true,
+  "center": true,
+  "help": true,
+  "showNotes": true,
+  "margin": 0.3
 }
