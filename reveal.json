@@ -7,5 +7,12 @@
   "center": true,
   "help": true,
   "showNotes": true,
-  "margin": 0.3
+  "margin": 0.5,
+  "transition": "slide",
+  "backgroundTransition": "slide",
+  "touch": true,
+  "fragments": true,
+  "overview": true,
+  "autoAnimate": true
+
 }

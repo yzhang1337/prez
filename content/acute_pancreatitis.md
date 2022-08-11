@@ -7,8 +7,9 @@ theme: moon
 ---
 
 # Acute Pancreatitis
-#### With a focus on Hypertriglyceridemia induced Pancreatitis
+### *With a focus on Hypertriglyceridemia induced Pancreatitis*
 Yilun Zhang
+
 August 11th, 2022
 
 ---
@@ -48,11 +49,11 @@ August 11th, 2022
 - **Hypertriglyceridemia (2-5%)**
 - Hypercalcemia
 =
-#### Hypertriglyceridemia induced Pancreatitis
+## Hypertriglyceridemia induced Pancreatitis Risks
 - up to 56 percent of pancreatitis cases during pregnancy
 - the risk of acute pancreatitis increases progressively with serum triglyceride levels over 500 mg/dL (5.6 mmol/L), with the risk increasing markedly with levels over 1000 mg/dL
 =
-### Rare
+### Rare Causes
 - infectious
 - ischemia
 - traumatic
@@ -69,8 +70,6 @@ August 11th, 2022
 
 *10% have atypical presentation WITHOUT pain and unexplained hypotension*
 **eruptive xanthomas (in the setting of hypertriglyceridemia**
-
-
 ###### Time course
 - Early phase (<1 wk)
   - possible SIRS + organ failure
@@ -117,17 +116,13 @@ Generally, other sources of epigastric pain, can be distinguished with **contras
 ## Nutrition + Insulin + Heparin!
 - Early enteral feeding is encouraged --> transition to PO as tolerated
 - Enteral > TPN to decrease risk of infectious complications
-
 In the case of hypertriglyceridemia --> insulin gtt (activates lipases) + **fibrates**
 - in addition to restriction of fatty meals
 - if recurrent pancreatitis with high triglycerides --> Antioxidant therapies (Selenium, beta carotene, vitamin C)
-
- - fibrates result in a 30% to 50% reduction in triglyceride level; these agents are indicated in patients with severe hypertriglyceridemia (≥500 mg/dL [5.65 mmol/L] and especially ≥1000 mg/dL [11.30 mmol/L]) to prevent acute pancreatitis. 
- - Icosapent ethyl or pharmacologic doses (4 g/d) of omega-3 fatty acid preparations are also effective at decreasing triglyceride levels. 
- **#MKSAP19**
+* fibrates result in a 30% to 50% reduction in triglyceride level; these agents are indicated in patients with severe hypertriglyceridemia (≥500 mg/dL [5.65 mmol/L] and especially ≥1000 mg/dL [11.30 mmol/L]) to prevent acute pancreatitis. 
+- Icosapent ethyl or pharmacologic doses (4 g/d) of omega-3 fatty acid preparations are also effective at decreasing triglyceride levels. 
 - Heparin releases stored LPL from endothelial cells to lower TG's (usually given in combination with insulin)
   + *although preferably avoid this due to risk of hemmorhage and rebound HTG*
-
 ---
 ## Takeaways (taken from MKSAP19)
 - Biliary disease (gallstones, biliary sludge, or microlithiasis) is the most common cause of acute pancreatitis.
@@ -139,7 +134,6 @@ In the case of hypertriglyceridemia --> insulin gtt (activates lipases) + **fibr
 - Early and aggressive fluid resuscitation should be initiated in patients with acute pancreatitis.
 - In mild acute pancreatitis, oral feedings can be started as soon as nausea and vomiting are controlled and clinical symptoms are alleviated; enteral feeding should begin within 72 hours if oral feeding is not tolerated.
 - Pancreatic pseudocysts do not require drainage unless they cause significant symptoms or are infected, regardless of size.
-
 **Patients with HTG-AP typically do worse than others**
 ---
 
