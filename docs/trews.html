@@ -31,22 +31,21 @@ Winchester Hospital
 ## The Problem
 </script></section><section data-markdown><script type="text/template">
 ## Sepsis Detection in the ED
-- Early Detection + Treatment is Key
-- Sepsis course is relatively heterogenous; leading to delayed detection
-- Efficient triage allows for efficient use of upstream resources
-- ED providers are burdened with volume and horizontal survilience
+- Early Detection + Treatment is Key <!-- .element: class="fragment" data-fragment-index="1" -->
+- Sepsis course is relatively heterogenous; leading to delayed detection <!-- .element: class="fragment" data-fragment-index="2" -->
+- Efficient triage allows for efficient use of upstream resources <!-- .element: class="fragment" data-fragment-index="3" -->
+- ED providers are burdened with volume and horizontal survilience <!-- .element: class="fragment" data-fragment-index="4" -->
 </script></section><section data-markdown><script type="text/template">
 ## Detection vs Onset vs Prediction
 Typical Clinical course:
-- Patient arrives to ED
-- **"concern for sepsis"**
-- Physiological **Onset** of Sepsis
-- Clinical **Detection** of Sepsis
-- 1 Hour bundle delivered
-- Triage to ICU/floor as indicated
+- Patient arrives to ED <!-- .element: class="fragment"  -->
+- **"concern for sepsis"** <!-- .element: class="fragment"  -->
+- Physiological **Onset** of Sepsis <!-- .element: class="fragment"  -->
+- Clinical **Detection** of Sepsis <!-- .element: class="fragment"  -->
+- 1 Hour bundle delivered <!-- .element: class="fragment"  -->
+- Triage to ICU/floor as indicated <!-- .element: class="fragment"  -->
 
-
-#### Improving this outcome requires decreases in *t* to each time point w.r.t. to physiology
+#### Improving this outcome requires decreases in *t* to each time point w.r.t. to physiology <!-- .element: class="fragment"  -->
 </script></section><section data-markdown><script type="text/template">
 ## The Problem Space
 Known quantitative ways to assess Sepsis severity/mortality:
@@ -56,7 +55,7 @@ Known quantitative ways to assess Sepsis severity/mortality:
 - SCS
 - MEWS
 
-#### However, although they are quantitative in nature, they are *practically* binary in their value as they rely on measures of organ dysfunction!
+#### However, although they are quantitative in nature, they are *practically* binary in their value as they rely on measures of organ dysfunction! <!-- .element: class="fragment"  -->
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Brief Primer on AI/ML and Statistics
 </script></section><section data-markdown><script type="text/template">
@@ -82,14 +81,14 @@ Known quantitative ways to assess Sepsis severity/mortality:
 ## TREWScore
 </script></section><section data-markdown><script type="text/template">
 ## Big Picture
-- Supervised Learning Model trained from [MIMIC-II Clinical Database](https://physionet.org/about/)
+- Supervised Learning Model trained from [MIMIC-II Clinical Database](https://physionet.org/about/) <!-- .element: class="fragment"  -->
     - 13,014 patients w/ outcomes from BIDMC
     - Routine EHR data
     - 27 features used
-- Controls:
+- Controls: <!-- .element: class="fragment"  -->
     -  "Routine Screening" by 2/4 SIRS Criteria
     -  MEWS score is a severity score for ICU triage in surgical patients
-- Outputs:
+- Outputs: <!-- .element: class="fragment"  -->
     - Likelihood of developing sepsis
     - Likelihood of developing severe Sepsis (BEFORE end organ damage)
 
@@ -102,9 +101,9 @@ Known quantitative ways to assess Sepsis severity/mortality:
 ![](attachments/trews/8.png)
 </script></section><section data-markdown><script type="text/template">
 ## So What?
-- really holds no clinical value as this was developed in a vacuum
-- unclear if even *earlier* Early Goal Directed Therapy is even clinically beneficial
-- Prospective validation + Generalization required
+- really holds no clinical value as this was developed in a vacuum <!-- .element: class="fragment"  -->
+- unclear if even *earlier* Early Goal Directed Therapy is even clinically beneficial <!-- .element: class="fragment"  -->
+- Prospective validation + Generalization required <!-- .element: class="fragment"  -->
 
 
 </script></section></section><section ><section data-markdown><script type="text/template">
@@ -113,10 +112,10 @@ Known quantitative ways to assess Sepsis severity/mortality:
 ![](attachments/trews/9.png)
 </script></section><section data-markdown><script type="text/template">
 ## Big Picture
-- Multi-site (5) two-arm cohort study
-- 590,736 patients *monitored*
-- Focused on **clinical outcomes** based on model predictions and *clinician interaction*
-- Real-Time integrated into Epic
+- Multi-site (5) two-arm cohort study <!-- .element: class="fragment"  -->
+- 590,736 patients *monitored* <!-- .element: class="fragment"  -->
+- Focused on **clinical outcomes** based on model predictions and *clinician interaction* <!-- .element: class="fragment"  -->
+- Real-Time integrated into Epic <!-- .element: class="fragment"  -->
 
 
 > Notably, we found that sepsis patients who had their alert evaluated
@@ -132,10 +131,10 @@ to first antibiotic order
 </script></section><section data-markdown><script type="text/template">
 ## Results, *TLDR*
 - after adjusting across patient metadata using logistic regression to estimate ARD and ARR...
-    - timely provider evaluation and confirmation ofthe TREWS alert were associated with reduced mortality
-    - SOFA score progression
-    - reduced median length of stay among survivors
-    - delay in antibiotics relative to the time of the alert was associated with increased patient mortality
+    - timely provider evaluation and confirmation ofthe TREWS alert were associated with reduced mortality <!-- .element: class="fragment"  -->
+    - SOFA score progression <!-- .element: class="fragment"  -->
+    - reduced median length of stay among survivors <!-- .element: class="fragment"  -->
+    - delay in antibiotics relative to the time of the alert was associated with increased patient mortality <!-- .element: class="fragment"  -->
 </script></section><section data-markdown><script type="text/template">
 ![](attachments/trews/12.png)
 </script></section></section><section ><section data-markdown><script type="text/template">
@@ -148,7 +147,9 @@ https://github.com/royadams/adams_et_al_2022_code/blob/main/trews_patient_outcom
 </script></section></section><section  data-markdown><script type="text/template">
 Thank you for your attention!
 
-Link to Slides</script></section></div>
+Link to Slides
+
+[slides.yilunzhang.com](https://slides.yilunzhang.com/#/)</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
