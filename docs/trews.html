@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
 
     <title>Sepsis Alarm</title>
     <link rel="shortcut icon" href="./favicon.ico" />
@@ -29,7 +29,7 @@ Winchester Hospital
 
 </script></section><section ><section data-markdown><script type="text/template">
 ## The Problem
-</script></section><section data-markdown><script type="text/template"> 
+</script></section><section data-markdown><script type="text/template">
 ## Sepsis Detection in the ED
 - Early Detection + Treatment is Key
 - Sepsis course is relatively heterogenous; leading to delayed detection
@@ -43,7 +43,7 @@ Typical Clinical course:
 - Physiological **Onset** of Sepsis
 - Clinical **Detection** of Sepsis
 - 1 Hour bundle delivered
-- Triage to ICU/floor as indicated 
+- Triage to ICU/floor as indicated
 
 
 #### Improving this outcome requires decreases in *t* to each time point w.r.t. to physiology
@@ -61,7 +61,7 @@ Known quantitative ways to assess Sepsis severity/mortality:
 ## Brief Primer on AI/ML and Statistics
 </script></section><section data-markdown><script type="text/template">
 #### So what's the deal with AI?
-![seinfeld](attachments/seinfeld.png) 
+![seinfeld](attachments/seinfeld.png)
 </script></section><section data-markdown><script type="text/template">
 ![](attachments/trews/1.png)
 </script></section><section data-markdown><script type="text/template">
@@ -100,7 +100,7 @@ Known quantitative ways to assess Sepsis severity/mortality:
 </script></section><section data-markdown><script type="text/template">
 ## Validation of Sepsis Detection
 ![](attachments/trews/8.png)
-</script></section><section data-markdown><script type="text/template"> 
+</script></section><section data-markdown><script type="text/template">
 ## So What?
 - really holds no clinical value as this was developed in a vacuum
 - unclear if even *earlier* Early Goal Directed Therapy is even clinically beneficial
@@ -109,7 +109,7 @@ Known quantitative ways to assess Sepsis severity/mortality:
 
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Clinical Implementation and Real World Perfomance
-</script></section><section data-markdown><script type="text/template"> 
+</script></section><section data-markdown><script type="text/template">
 ![](attachments/trews/9.png)
 </script></section><section data-markdown><script type="text/template">
 ## Big Picture
@@ -122,7 +122,7 @@ Known quantitative ways to assess Sepsis severity/mortality:
 > Notably, we found that sepsis patients who had their alert evaluated
 and confirmed within 3h had a 1.85-h lower median time from alert
 to first antibiotic order
-> 
+>
 
 </script></section><section data-markdown><script type="text/template">
 ![](attachments/trews/10.png)
@@ -132,15 +132,15 @@ to first antibiotic order
 </script></section><section data-markdown><script type="text/template">
 ## Results, *TLDR*
 - after adjusting across patient metadata using logistic regression to estimate ARD and ARR...
-    - timely provider evaluation and confirmation ofthe TREWS alert were associated with reduced mortality 
+    - timely provider evaluation and confirmation ofthe TREWS alert were associated with reduced mortality
     - SOFA score progression
     - reduced median length of stay among survivors
-    - delay in antibiotics relative to the time of the alert was associated with increased patient mortality 
+    - delay in antibiotics relative to the time of the alert was associated with increased patient mortality
 </script></section><section data-markdown><script type="text/template">
 ![](attachments/trews/12.png)
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Implications
-</script></section><section data-markdown><script type="text/template"> 
+</script></section><section data-markdown><script type="text/template">
 [Bayesian Health](https://www.bayesianhealth.com/)
 </script></section><section data-markdown><script type="text/template">
 ## Open Source
