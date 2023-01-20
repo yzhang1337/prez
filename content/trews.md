@@ -4,7 +4,7 @@ separator: ---
 verticalSeparator: =
 theme: simple
 revealOptions:
-  transition: 'fade'
+  transition: 'slide'
   progress: 'true'
 ---
 ## TREWS: An Automated Sepsis Detection System
@@ -22,7 +22,7 @@ Winchester Hospital
 ## The Problem
 = 
 ## Sepsis Detection in the ED
-- Early Detection + Treatment is Key
+- Early Detection + Treatment is Key 
 - Sepsis course is relatively heterogenous; leading to delayed detection
 - Efficient triage allows for efficient use of upstream resources
 - ED providers are burdened with volume and horizontal survilience
