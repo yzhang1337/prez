@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Sepsis Alarm</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+# TREWS: An Automated Sepsis Detection System
+
+Yilun Zhang
+January 20, 2023
+Winchester Hospital
+
+</script></section><section  data-markdown><script type="text/template">
+# Overview
+1. The Problem
+2. Brief Primer on AI/ML and Statistics
+3. TREWS Model
+4. Clinical Implementation and Real World Perfomance
+5. Implications
+
+</script></section><section ><section data-markdown><script type="text/template">
+# The Problem
+</script></section><section data-markdown><script type="text/template"> 
+# Sepsis Detection in the ED
+- Early Detection + Treatment is Key
+- Sepsis course is relatively heterogenous; leading to delayed detection
+- Efficient triage allows for efficient use of upstream resources
+- ED providers are burdened with volume and horizontal survilience
+</script></section><section data-markdown><script type="text/template">
+# Detection vs Onset vs Prediction
+Typical Clinical course:
+- Patient arrives to ED
+- **"concern for sepsis"**
+- Physiological **Onset** of Sepsis
+- Clinical **Detection** of Sepsis
+- 1 Hour bundle delivered
+- Triage to ICU/floor as indicated 
+
+
+#### Improving this outcome requires decreases in *t* to each time point w.r.t. to physiology
+</script></section><section data-markdown><script type="text/template">
+# The Problem Space
+Known quantitative ways to assess Sepsis severity/mortality:
+- SIRS
+- q/SOFA
+- SAPS II
+- SCS
+- MEWS
+
+#### However, although they are quantitative in nature, they are *practically* binary in their value as they rely on measures of organ dysfunction!
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Brief Primer on AI/ML and Statistics
+#### So what's the deal with AI?
+![seinfeld](attachments/seinfeld.png)
+</script></section><section data-markdown><script type="text/template">
+![](attachments/trews/1.png)
+</script></section><section data-markdown><script type="text/template">
+# Supervised Learning
+![](attachments/trews/2.png)
+</script></section><section data-markdown><script type="text/template">
+# Bayesian Statistics
+![](attachments/trews/3.png)
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+# TREWS Model
+</script></section><section data-markdown><script type="text/template">
+# The JHU Group
+![](attachments/trews/4.png)
+
+![](attachments/trews/5.png)
+</script></section><section data-markdown><script type="text/template">
+# TREWScore
+</script></section><section data-markdown><script type="text/template">
+# Big Picture
+- Supervised Learning Model trained from [MIMIC-II Clinical Database](https://physionet.org/about/)
+    - 13,014 patients w/ outcomes from BIDMC
+    - Routine EHR data
+    - 27 features used
+- Controls:
+    -  "Routine Screening" by 2/4 SIRS Criteria
+    -  MEWS score is a severity score for ICU triage in surgical patients
+- Outputs:
+    - Likelihood of developing sepsis
+    - Likelihood of developing severe Sepsis (BEFORE end organ damage)
+
+</script></section><section data-markdown><script type="text/template">
+![](attachments/trews/6.png)
+</script></section><section data-markdown><script type="text/template">
+![](attachments/trews/7.png)
+</script></section><section data-markdown><script type="text/template">
+# Validation of Sepsis Detection
+![](attachments/trews/8.png)
+</script></section><section data-markdown><script type="text/template"> 
+# So What?
+- really holds no clinical value as this was developed in a vacuum
+- unclear if even *earlier* Early Goal Directed Therapy is even clinically beneficial
+- Prospective validation + Generalization required
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Clinical Implementation and Real World Perfomance
+</script></section><section data-markdown><script type="text/template"> 
+![](attachments/trews/9.png)
+</script></section><section data-markdown><script type="text/template">
+# Big Picture
+- Multi-site (5) two-arm cohort study
+- 590,736 patients *monitored*
+- Focused on **clinical outcomes** based on model predictions and *clinician interaction*
+- Real-Time integrated into Epic
+
+
+> Notably, we found that sepsis patients who had their alert evaluated
+and confirmed within 3h had a 1.85-h lower median time from alert
+to first antibiotic order
+> 
+
+</script></section><section data-markdown><script type="text/template">
+![](attachments/trews/10.png)
+</script></section><section data-markdown><script type="text/template">
+# Results
+![](attachments/trews/11.png)
+</script></section><section data-markdown><script type="text/template">
+# Results, *TLDR*
+- after adjusting across patient metadata using logistic regression to estimate ARD and ARR...
+    - timely provider evaluation and confirmation ofthe TREWS alert were associated with reduced mortality 
+    - SOFA score progression
+    - reduced median length of stay among survivors
+    - delay in antibiotics relative to the time of the alert was associated with increased patient mortality 
+</script></section><section data-markdown><script type="text/template">
+![](attachments/trews/12.png)
+</script></section></section><section ><section data-markdown><script type="text/template">
+# Implications
+</script></section><section data-markdown><script type="text/template"> 
+[Bayesian Health](https://www.bayesianhealth.com/)
+</script></section><section data-markdown><script type="text/template">
+# Open Source
+https://github.com/royadams/adams_et_al_2022_code/blob/main/trews_patient_outcome_analysis_public.ipynb
+</script></section></section><section  data-markdown><script type="text/template">
+Thank you for your attention!
+Link to Slides</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"fade","progress":"true"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
